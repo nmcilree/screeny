@@ -1,0 +1,184 @@
+1626692752359	geckodriver	INFO	Listening on 127.0.0.1:45189
+1626692753384	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileNBorc5"
+*** You are running in headless mode.
+1626692754299	Marionette	INFO	Listening on port 35897
+1626692754402	Marionette	WARN	TLS certificate errors will be ignored for this session
+1626692755435	Marionette	INFO	Stopped listening on port 35897
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1626692781009	geckodriver	INFO	Listening on 127.0.0.1:37167
+1626692782048	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilempzbCs"
+*** You are running in headless mode.
+1626692783093	Marionette	INFO	Listening on port 36617
+1626692783167	Marionette	WARN	TLS certificate errors will be ignored for this session
+1626692801782	geckodriver	INFO	Listening on 127.0.0.1:49183
+1626692802831	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWaw7d8"
+*** You are running in headless mode.
+1626692803781	Marionette	INFO	Listening on port 37299
+1626692803847	Marionette	WARN	TLS certificate errors will be ignored for this session
+1626692850428	geckodriver	INFO	Listening on 127.0.0.1:53669
+1626692851455	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileLuEt03"
+*** You are running in headless mode.
+1626692852399	Marionette	INFO	Listening on port 40531
+1626692852474	Marionette	WARN	TLS certificate errors will be ignored for this session
+1626692855615	Marionette	INFO	Stopped listening on port 40531
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0xB000E,name=PBackgroundIDBDatabase::Msg_CloseAfterInvalidationComplete) Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+1626692886837	geckodriver	INFO	Listening on 127.0.0.1:47101
+1626692887890	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileLG2qOi"
+*** You are running in headless mode.
+1626692888927	Marionette	INFO	Listening on port 44483
+1626692889007	Marionette	WARN	TLS certificate errors will be ignored for this session
+1626692891846	Marionette	INFO	Stopped listening on port 44483
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1626692964598	geckodriver	INFO	Listening on 127.0.0.1:51415
+1626692965609	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--window-size=800,490" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilepAw31v"
+*** You are running in headless mode.
+1626692966509	Marionette	INFO	Listening on port 36703
+1626692966522	Marionette	WARN	TLS certificate errors will be ignored for this session
+1626692969367	Marionette	INFO	Stopped listening on port 36703
+1626692998165	geckodriver	INFO	Listening on 127.0.0.1:53091
+1626692999210	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--window-size=800,490" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilehOxt5o"
+*** You are running in headless mode.
+1626693000197	Marionette	INFO	Listening on port 38075
+1626693000234	Marionette	WARN	TLS certificate errors will be ignored for this session
+1626693003184	Marionette	INFO	Stopped listening on port 38075
+1626693067984	geckodriver	INFO	Listening on 127.0.0.1:42863
+1626693069026	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--window-size=800,490" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilecKSGky"
+*** You are running in headless mode.
+1626693069986	Marionette	INFO	Listening on port 39637
+1626693070041	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 288: NS_ERROR_FAILURE: Should pass a non-null uri
+1626693072902	Marionette	INFO	Stopped listening on port 39637
+1626693134559	geckodriver	INFO	Listening on 127.0.0.1:55733
+1626693135617	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--window-size=800,490" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile8v8jQV"
+*** You are running in headless mode.
+1626693136492	Marionette	INFO	Listening on port 40041
+1626693136532	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 288: NS_ERROR_FAILURE: Should pass a non-null uri
+1626693139259	Marionette	INFO	Stopped listening on port 40041
+1626693168849	geckodriver	INFO	Listening on 127.0.0.1:38525
+1626693169899	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilevG2HZL"
+*** You are running in headless mode.
+1626693170828	Marionette	INFO	Listening on port 46529
+1626693170916	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 288: NS_ERROR_FAILURE: Should pass a non-null uri
+1626693173752	Marionette	INFO	Stopped listening on port 46529
+1626710610398	geckodriver	INFO	Listening on 127.0.0.1:48095
+1626710611380	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilemKVCVv"
+*** You are running in headless mode.
+1626710612387	Marionette	INFO	Listening on port 37981
+1626710612401	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 288: NS_ERROR_FAILURE: Should pass a non-null uri
+1626710615437	Marionette	INFO	Stopped listening on port 37981
+1626711006384	geckodriver	INFO	Listening on 127.0.0.1:60431
+1626711007440	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileb2CJIX"
+*** You are running in headless mode.
+1626711008445	Marionette	INFO	Listening on port 44211
+1626711008459	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 288: NS_ERROR_FAILURE: Should pass a non-null uri
+1626711011308	Marionette	INFO	Stopped listening on port 44211
+1626711031992	geckodriver	INFO	Listening on 127.0.0.1:39653
+1626711033042	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileAR6R0V"
+*** You are running in headless mode.
+1626711033997	Marionette	INFO	Listening on port 45701
+1626711034060	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 288: NS_ERROR_FAILURE: Should pass a non-null uri
+1626711036895	Marionette	INFO	Stopped listening on port 45701
+1626711082486	geckodriver	INFO	Listening on 127.0.0.1:40463
+1626711083542	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile6ZO3jL"
+*** You are running in headless mode.
+1626711084431	Marionette	INFO	Listening on port 44743
+1626711084459	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 288: NS_ERROR_FAILURE: Should pass a non-null uri
+1626711087403	Marionette	INFO	Stopped listening on port 44743
+1626711113253	geckodriver	INFO	Listening on 127.0.0.1:41493
+1626711114274	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileyF11lg"
+*** You are running in headless mode.
+1626711115198	Marionette	INFO	Listening on port 42505
+1626711115291	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 288: NS_ERROR_FAILURE: Should pass a non-null uri
+1626711118207	Marionette	INFO	Stopped listening on port 42505
+1626711300951	geckodriver	INFO	Listening on 127.0.0.1:50261
+1626711302008	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileBq0wMt"
+*** You are running in headless mode.
+1626711302965	Marionette	INFO	Listening on port 37199
+1626711303025	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 288: NS_ERROR_FAILURE: Should pass a non-null uri
+1626711305981	Marionette	INFO	Stopped listening on port 37199
+1626711799155	geckodriver	INFO	Listening on 127.0.0.1:35115
+1626711800152	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilevsT6D0"
+*** You are running in headless mode.
+1626711801273	Marionette	INFO	Listening on port 41353
+1626711801371	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 288: NS_ERROR_FAILURE: Should pass a non-null uri
+1626711804312	Marionette	INFO	Stopped listening on port 41353
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1626713505078	geckodriver	INFO	Listening on 127.0.0.1:56879
+1626713506030	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileBsEVj3"
+*** You are running in headless mode.
+1626713507022	Marionette	INFO	Listening on port 43221
+1626713507043	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 288: NS_ERROR_FAILURE: Should pass a non-null uri
+1626713509913	Marionette	INFO	Stopped listening on port 43221
+1626713749256	geckodriver	INFO	Listening on 127.0.0.1:50631
+1626713750318	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilemWsWjV"
+*** You are running in headless mode.
+1626713751336	Marionette	INFO	Listening on port 36749
+1626713751434	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 288: NS_ERROR_FAILURE: Should pass a non-null uri
+1626713754430	Marionette	INFO	Stopped listening on port 36749
+1626714276961	geckodriver	INFO	Listening on 127.0.0.1:48053
+1626714277915	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileP0FPRO"
+*** You are running in headless mode.
+1626714278958	Marionette	INFO	Listening on port 33397
+1626714279028	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 288: NS_ERROR_FAILURE: Should pass a non-null uri
+1626714281839	Marionette	INFO	Stopped listening on port 33397
+1626720576019	geckodriver	INFO	Listening on 127.0.0.1:36727
+1626720577025	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilerUr0Yy"
+*** You are running in headless mode.
+1626720578117	Marionette	INFO	Listening on port 43457
+1626720578138	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 288: NS_ERROR_FAILURE: Should pass a non-null uri
+1626720581142	Marionette	INFO	Stopped listening on port 43457
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1626724021870	geckodriver	INFO	Listening on 127.0.0.1:47707
+1626724022849	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileVYXhmF"
+*** You are running in headless mode.
+1626724024017	Marionette	INFO	Listening on port 41155
+1626724024070	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 288: NS_ERROR_FAILURE: Should pass a non-null uri
+1626724026961	Marionette	INFO	Stopped listening on port 41155
+1626724422721	geckodriver	INFO	Listening on 127.0.0.1:38973
+1626724423709	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileLy4kRT"
+*** You are running in headless mode.
+1626724425023	Marionette	INFO	Listening on port 33441
+1626724425125	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 288: NS_ERROR_FAILURE: Should pass a non-null uri
+1626724428056	Marionette	INFO	Stopped listening on port 33441
+1626725971497	geckodriver	INFO	Listening on 127.0.0.1:45171
+1626725972493	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilelzkNIY"
+*** You are running in headless mode.
+1626725973882	Marionette	INFO	Listening on port 33635
+1626725973912	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 288: NS_ERROR_FAILURE: Should pass a non-null uri
+1626725976833	Marionette	INFO	Stopped listening on port 33635
+1626726386581	geckodriver	INFO	Listening on 127.0.0.1:48833
+1626726387637	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilejf2wzs"
+*** You are running in headless mode.
+1626726388874	Marionette	INFO	Listening on port 44721
+1626726388956	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 288: NS_ERROR_FAILURE: Should pass a non-null uri
+1626726391863	Marionette	INFO	Stopped listening on port 44721
