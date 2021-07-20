@@ -7,3 +7,5 @@ services:
     volumes:
       - .:/greenminds
     tty: true
+    ports:
+      - "8003:80"

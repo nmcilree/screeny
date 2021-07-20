@@ -18,6 +18,9 @@ WORKDIR /greenminds
 RUN pip install -r /greenminds/requirements.txt
 
 
+RUN apt-get install apache2 -y
+RUN service apache2 start
+
 # Create the log file to be able to run tail
 RUN touch /var/log/cron.log
 
@@ -27,7 +30,7 @@ RUN touch /var/log/cron.log
 #RUN (crontab -l ; echo "* * * * * /usr/bin/sh /greenminds/scrape.sh" ) | crontab
 #RUN (crontab -l ; echo "* * * * * python /greenminds/scrape.py") | crontab
 #RUN (crontab -l ; echo "* * * * * /usr/local/bin/python /greenminds/scrape.py >> /greenminds/boom.txt 2>&1" ) | crontab 
-RUN (crontab -l ; echo "*/30 * * * * /usr/local/bin/python /greenminds/scrape.py >> /greenminds/boom.txt 2>&1" ) | crontab 
+RUN (crontab -l ; echo "*/2 * * * * /usr/local/bin/python /greenminds/scrape.py >> /greenminds/boom.txt 2>&1" ) | crontab 
 
 # Run the command on container startup
 CMD cron && tail -f /var/log/cron.log
