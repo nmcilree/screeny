@@ -30,7 +30,7 @@ RUN touch /var/log/cron.log
 #RUN (crontab -l ; echo "* * * * * /usr/bin/sh /greenminds/scrape.sh" ) | crontab
 #RUN (crontab -l ; echo "* * * * * python /greenminds/scrape.py") | crontab
 #RUN (crontab -l ; echo "* * * * * /usr/local/bin/python /greenminds/scrape.py >> /greenminds/boom.txt 2>&1" ) | crontab 
-RUN (crontab -l ; echo "*/2 * * * * /usr/local/bin/python /greenminds/scrape.py >> /greenminds/boom.txt 2>&1" ) | crontab 
+RUN (crontab -l ; echo "*/20 * * * * /usr/local/bin/python /greenminds/scrape.py >> /greenminds/boom.txt 2>&1" ) | crontab 
 
 # Run the command on container startup
 #CMD cron && tail -f /var/log/cron.log && service apache2 start
