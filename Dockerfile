@@ -13,10 +13,10 @@ RUN apt-get update && apt-get install -y cron
 RUN touch /var/log/cron.log
 
 COPY . /greenminds
+RUN chmod +x greenminds/aws_start.sh
 VOLUME /greenminds
 WORKDIR /greenminds
 RUN pip install -r /greenminds/requirements.txt
-
 
 RUN apt-get install apache2 -y
 RUN service apache2 start
@@ -33,7 +33,7 @@ RUN touch /var/log/cron.log
 RUN (crontab -l ; echo "*/2 * * * * /usr/local/bin/python /greenminds/scrape.py >> /greenminds/boom.txt 2>&1" ) | crontab 
 
 # Run the command on container startup
-CMD cron && tail -f /var/log/cron.log
+#CMD cron && tail -f /var/log/cron.log && service apache2 start
 
 #COPY crontab /etc/cron.d/crontab
 #RUN chmod 0644 /etc/cron.d/crontab
@@ -42,3 +42,7 @@ CMD cron && tail -f /var/log/cron.log
 #RUN crontab /etc/cron.d/crontab
 #CMD ["cron", "-f"]
 #CMD cron -f
+
+ENV PYTHONUNBUFFERED 1
+RUN ["chmod", "+x", "/greenminds/aws_start.sh"]
+ENTRYPOINT /greenminds/aws_start.sh
