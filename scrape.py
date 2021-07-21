@@ -9,7 +9,7 @@ from selenium import webdriver
 options = FirefoxOptions()
 options.add_argument("--headless")
 driver = webdriver.Firefox(options=options, executable_path='/greenminds/geckodriver')
-driver.set_window_size(800, 480)
+driver.set_window_size(800, 554)
 # Get screenshow
 driver.get("https://mimi777.000webhostapp.com/grafData3.html")
 time.sleep(2)
