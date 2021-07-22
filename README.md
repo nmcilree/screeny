@@ -1,6 +1,10 @@
 # Screeny
 
-Simple docker container to take screen grab from website for greenminds project.
+Simple docker container to take screen grab from website for greenminds project. It works in the following manner
+- Docker container runs a cron job every 20 mins
+- Using Python Selenium library and headless firefox/geckdriver scrape.py captures a given URL
+- Resultant png is converted to bmp and saved to /var/www/html
+- As Docker container is running standard apache2 install this image (screengrab.bmp) is now available from the root of the container host i.e http://35.176.129.138/screengrab.bmp 
 
 **Requirements:**
 - Public facing server that support Docker
@@ -11,3 +15,12 @@ Simple docker container to take screen grab from website for greenminds project.
 - build docker image by running following command from root of folder `docker build -t <your-tag-name> --no-cache .` 
 - run the docker container using following command ( setting it to forward port 80 on your host to port 80 in the container ) `docker run -t -d -p 80:80 screeny
 - Check it's running `docker ps` - this should show the running process
+- browser to host URL/IP to download latest screengrab ( be mindful of your browser caching - perhaps adding a random querystring to the request might help )
+
+**Manually running scrape**
+You can execute into the running docker container and manually run the scape
+- `docker exec -it <name-of-container> bash` ( you can get the name by running `docker ps` )
+- run `python scrape.py` to manually run
+
+
+
