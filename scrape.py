@@ -11,7 +11,7 @@ options.add_argument("--headless")
 driver = webdriver.Firefox(options=options, executable_path='/greenminds/geckodriver')
 driver.set_window_size(800, 554)
 # Get screenshow
-driver.get("https://mimi777.000webhostapp.com/grafData3.html")
+driver.get("http://mimi777.000webhostapp.com/grafData3.html")
 time.sleep(2)
 driver.get_screenshot_as_file("/greenminds/screengrab.png") 
 driver.quit()
