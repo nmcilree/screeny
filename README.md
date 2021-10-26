@@ -4,7 +4,7 @@ Simple docker container to take screen grab from website for greenminds project.
 - Docker container runs a cron job every 20 mins
 - Using Python Selenium library and headless firefox/geckdriver scrape.py captures a given URL
 - Resultant png is converted to bmp and saved to /var/www/html
-- As Docker container is running standard apache2 install this image (screengrab.bmp) is now available from the root of the container host i.e http://35.176.129.138/screengrab.bmp 
+- As Docker container is running standard apache2 this image (screengrab.bmp) is now available from the root of the container host i.e http://35.176.129.138/screengrab.bmp . The apache root in the docker image is /var/www/html
 
 **Requirements:**
 - Public facing server that support Docker
